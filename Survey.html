@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Survey.css">
+</head>
+ 
+<body>
+    <header>
+        <nav>
+            <ul class="left-menu">
+                <li><a href="Survey.html">Survey</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="Game.html">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <span>
+    <h1>Survey Form</h1>
+ 
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Nama
+            </label>
+ 
+
+            <input type="text" id="name"
+                   placeholder="masukan nama" />
+        </div>
+ 
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+
+            <input type="email" id="email"
+                   placeholder="masukan email" />
+        </div>
+ 
+        <div class="form-control">
+            <label for="age" id="label-age">
+                umur
+            </label>
+ 
+
+            <input type="text" id="age"
+                   placeholder="masukan umur" />
+        </div>
+ 
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+ 
+
+            <select name="role" id="role">
+                <option value="murid">murid</option>
+                <option value="pekerja magang">Pekerja magang</option>
+                <option value="professional">Professional</option>
+                <option value="mahasiswa">mahasiswa</option>
+            </select>
+        </div>
+ 
+   
+            
+ 
+        <div class="form-control">
+            <label>alasan anda suka dengan halaman ini</label>
+
+            <label for="inp-1">
+                <input type="checkbox" name="inp">karena belajar tentang teknologi
+                  </input>
+              </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">ingin mengetahui tentang OPENAI
+                  </input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">karena ingin mencari tau apa bagusnya teknologi
+                  </input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">karena ingin mempelajari hal baru
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">lainnya
+                  </input>
+            </label>
+        </div>
+ 
+        <div class="form-control">
+            <label for="comment">
+                bila lainnya isilah dalam tabel ini
+            </label>
+ 
+            <textarea name="comment" id="comment"
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+ 
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+    </span>
+</body>
+ 
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-menu,
+        .right-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .left-menu li,
+        .right-menu li {
+            margin-right: 20px;
+        }
+
+        .left-menu li:last-child,
+        .right-menu li:last-child {
+            margin-right: 0;
+        }
+
+        .left-menu li a,
+        .right-menu li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .content {
+            padding: 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .image-block {
+            max-width: 100%;
+            height: auto;
+            margin-right: 10px;
+            left: 0;
+            top: 0;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+        .text-blk {
+            margin: 0;
+            padding: 0;
+            line-height: 25px;
+        }
+        .text-blk.section-text {
+            color: rgb(147, 147, 147);
+            max-width: 750px;
+            margin-top: 25px;
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .text-blk.section-head {
+            max-width: 750px;
+            font-size: 45px;
+            line-height: 50px;
+            font-weight: 700;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="left-menu">
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="Survey.html">survey</a></li>
+                <li><a href="Game.html">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="image-block">
+            <img alt="golden-lines.png" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png">
+        </div>
+        <div class="text-content">
+            <p class="text-blk section-head">
+                Alvern Christopher
+            </p>
+            <p class="text-blk section-text">
+                Saya adalah seorang mahasiswa di Institut Sains dan Teknologi Terpadu Surabaya (ISTTS) yang memiliki impian besar untuk bekerja di luar negeri. Sejak awal kuliah, Saya telah memiliki tekad yang kuat untuk mengejar impian tersebut.
+            </p>
+            <p class="text-blk section-text">
+                Pengalaman saya yang paling berkesan adalah ketika saya berhasil mendapatkan kesempatan magang di perusahaan-perusahaan besar teknologi seperti Microsoft, Google, Nvidia, dan bahkan OpenAI. Di sana, Saya tidak hanya belajar tentang teknologi terbaru, tetapi juga tentang budaya kerja di lingkungan yang sangat kompetitif dan inovatif.
+            </p>
+            <p class="text-blk section-text">
+                Setiap pengalaman magang membawa nilai tambah yang berharga bagi saya, baik dalam hal keterampilan teknis maupun soft skills. Saya percaya bahwa perjalanan ini akan membawa saya menuju masa depan yang cerah di dunia teknologi, di mana saya bisa memberikan dampak yang positif bagi masyarakat global.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

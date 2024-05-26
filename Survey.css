@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.left-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.right-menu li:first-child {
+    margin-left: 0;
+}
+
+.right-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+span {
+    background-color: #05c46b;
+    font-family: Verdana;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: skyblue;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
